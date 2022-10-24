@@ -1,0 +1,120 @@
+baseURL = "http://example.org/"
+languageCode = "es-es"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "Portofolio"
+    title = "Portfolio"
+    author = "Andrés Pinilla "
+    description = "Programador Web"
+    copyright = "Libre"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Andrés Pinilla"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "#"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/pinilla155"
+        title = "GitHub"
+		
+		[[params.social.list]]
+        icon = "ai ai-google-scholar"
+        url = "#"
+        title = "Google Scholar"
+		
+		[[params.social.list]]
+        icon = "ai ai-researchgate"
+        url = "#"
+        title = "ResearchGate"		
+
+    # Education section
+    [params.education]
+        title = "Educacion"
+
+        [[params.education.list]]
+        degree = "Grado Superior en Programación de Aplicaciones Web"
+        college = "CPIFP Los Enlaces"
+        dates = "2021 - 2023"
+      
+
+    # Languages section
+    [params.language]
+        title = "Idiomas"
+
+        [[params.language.list]]
+        language = "Inglés"
+        level = "B2"
+				
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Viajar"
+		
+		[[params.hobbies.list]]
+        interest = "Musica"
+
+        [[params.hobbies.list]]
+        interest = "Deporte"
+
+        [[params.hobbies.list]]
+        interest = "Leer"
+
+    [params.aboutme]
+        description = "Soy un programador de desarrollo de aplicaciones web con conocimientos tanto en la parte de front como de back. Gran capacidad para trabajar en equipo y con ambición para el aprendizaje."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiencia"
+
+        [[params.jobs.list]]
+        position = "Job Number 1"
+        dates = "2018 - 2018"
+		link = "#"
+        company = " BSH"
+        
+
+        
+
+    # Projects section
+    [params.projects]
+        title = "Proyectos"
+
+        [[params.projects.list]]
+        title = "Hundir la flota"
+        url = "#"
+        description = "Juego clásico de hundir la flota en java"
+		
+		
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "HTML5, CSS, XML"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "JAVA"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "MySQL"
+        skillrating = 80
