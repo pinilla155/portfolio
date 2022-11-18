@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://pinilla155.github.io/portfolio/"
 languageCode = "es-es"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
